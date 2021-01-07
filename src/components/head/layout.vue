@@ -1,8 +1,12 @@
 <!--  -->
 <template>
   <div class=''>
-    <h1>head</h1>
+    <el-header class="header">
+      <div class="container">sadasdasdsdasdadasdasdawfewfwefwefw</div>
+    </el-header>
+    <div class="container">
     <router-view v-if="refresh" />
+    </div>
   </div>
 </template>
 <script>
@@ -17,9 +21,7 @@ export default {
 
   },
   created() {
-  this.refresh=true
+    this.refresh = true
   },
 }
 </script>
-<style scoped>
-</style>

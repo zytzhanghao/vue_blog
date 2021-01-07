@@ -1,0 +1,16 @@
+.header {
+  height: 80px;
+  background-color: #fff;
+  color: rgb(90, 181, 235);
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 80px;
+  z-index: 100;
+  position: relative;
+}
+.container {
+  width: 1140px;
+  padding: 0;
+  margin: 0 auto;
+}
