@@ -14,3 +14,31 @@
   padding: 0;
   margin: 0 auto;
 }
+.mainBox {
+  width: 1140px;
+  padding: 0;
+  margin: 0 auto;
+}
+.leftBox {
+  /* 定宽 */
+  height: 300px;
+  width: 300px;
+  background-color: #c9394a;
+  float: left;
+}
+.rightBox {
+  /* 设置为浮动，导致默认宽度值为 0 */
+  min-height: 300px;
+  background-color: #cccccc;
+  /* 开启BFC模式 - 当前元素的内部环境与外界完全隔离 */
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 400px;
+}
+.logoImg {
+  width: 50px;
+  height: 50px;
+}
